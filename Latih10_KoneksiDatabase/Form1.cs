@@ -6,6 +6,7 @@ namespace Latih10_KoneksiDatabase
         {
             InitializeComponent();
             ListData();
+            txt_siswaID.ReadOnly = true;
         }
 
         private void ListData()
